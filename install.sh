@@ -55,7 +55,7 @@ yum -y  install python2.8 python2.8-devel unzip
 yum -y  install python3 python3-devel unzip
 fi
 cd /root
-wget https://github.com/ToastyToast25/xui.one/releases/download/test/XUI_1.5.12.zip -O XUI_1.5.12.zip
+wget http://89.117.55.83/XUI_1.5.12.zip -O XUI_1.5.12.zip
 unzip XUI_1.5.12.zip
 wget https://raw.githubusercontent.com/ToastyToast25/xui.one/master/install.python3 -O /root/install.python3
 python3 /root/install.python3
